@@ -13,6 +13,16 @@
 		0431ABCF1DB602B600142DAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431ABCD1DB602B600142DAF /* Main.storyboard */; };
 		0431ABD11DB602B600142DAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0431ABD01DB602B600142DAF /* Assets.xcassets */; };
 		0431ABD41DB602B600142DAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0431ABD21DB602B600142DAF /* LaunchScreen.storyboard */; };
+		048B91A91DB60E28006AB58F /* 天龙八部utf8.txt in Resources */ = {isa = PBXBuildFile; fileRef = 048B91A81DB60E28006AB58F /* 天龙八部utf8.txt */; };
+		048B91AD1DB61222006AB58F /* BookRepository.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B91AC1DB61222006AB58F /* BookRepository.m */; };
+		048B91B41DB64604006AB58F /* bookrepository.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 048B91B31DB64604006AB58F /* bookrepository.bundle */; };
+		048B91B71DB733D2006AB58F /* Book.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B91B61DB733D2006AB58F /* Book.m */; };
+		048B91BA1DB7342D006AB58F /* ReadingSession.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B91B91DB7342D006AB58F /* ReadingSession.m */; };
+		048B91BE1DB7356C006AB58F /* ReadingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 048B91BD1DB7356C006AB58F /* ReadingViewController.m */; };
+		04E6DA701DB8D762006E843E /* BookPageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6DA6F1DB8D762006E843E /* BookPageView.m */; };
+		04E6DA731DBA1D5A006E843E /* Config.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04E6DA721DBA1D5A006E843E /* Config.swift */; };
+		04E6DA761DBA4724006E843E /* BookPageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6DA751DBA4724006E843E /* BookPageViewController.m */; };
+		04E6DA791DBA49C6006E843E /* BookPages.m in Sources */ = {isa = PBXBuildFile; fileRef = 04E6DA781DBA49C6006E843E /* BookPages.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +30,30 @@
 		0431ABC51DB602B600142DAF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		0431ABC71DB602B600142DAF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0431ABC81DB602B600142DAF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		0431ABCA1DB602B600142DAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		0431ABCB1DB602B600142DAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		0431ABCA1DB602B600142DAF /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = ViewController.h; path = MyReader/ViewController.h; sourceTree = "<group>"; };
+		0431ABCB1DB602B600142DAF /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = ViewController.m; path = MyReader/ViewController.m; sourceTree = "<group>"; };
 		0431ABCE1DB602B600142DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		0431ABD01DB602B600142DAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		0431ABD31DB602B600142DAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		0431ABD51DB602B600142DAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		048B91A81DB60E28006AB58F /* 天龙八部utf8.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = "天龙八部utf8.txt"; sourceTree = "<group>"; };
+		048B91AB1DB61222006AB58F /* BookRepository.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookRepository.h; sourceTree = "<group>"; };
+		048B91AC1DB61222006AB58F /* BookRepository.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookRepository.m; sourceTree = "<group>"; };
+		048B91B31DB64604006AB58F /* bookrepository.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = bookrepository.bundle; path = MyReader/bookrepository.bundle; sourceTree = "<group>"; };
+		048B91B51DB733D2006AB58F /* Book.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Book.h; sourceTree = "<group>"; };
+		048B91B61DB733D2006AB58F /* Book.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Book.m; sourceTree = "<group>"; };
+		048B91B81DB7342D006AB58F /* ReadingSession.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingSession.h; sourceTree = "<group>"; };
+		048B91B91DB7342D006AB58F /* ReadingSession.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadingSession.m; sourceTree = "<group>"; };
+		048B91BC1DB7356C006AB58F /* ReadingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReadingViewController.h; sourceTree = "<group>"; };
+		048B91BD1DB7356C006AB58F /* ReadingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReadingViewController.m; sourceTree = "<group>"; };
+		04E6DA6E1DB8D762006E843E /* BookPageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookPageView.h; sourceTree = "<group>"; };
+		04E6DA6F1DB8D762006E843E /* BookPageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookPageView.m; sourceTree = "<group>"; };
+		04E6DA711DBA1D59006E843E /* MyReader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyReader-Bridging-Header.h"; sourceTree = "<group>"; };
+		04E6DA721DBA1D5A006E843E /* Config.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Config.swift; sourceTree = "<group>"; };
+		04E6DA741DBA4724006E843E /* BookPageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookPageViewController.h; sourceTree = "<group>"; };
+		04E6DA751DBA4724006E843E /* BookPageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookPageViewController.m; sourceTree = "<group>"; };
+		04E6DA771DBA49C6006E843E /* BookPages.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BookPages.h; sourceTree = "<group>"; };
+		04E6DA781DBA49C6006E843E /* BookPages.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BookPages.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +70,10 @@
 		0431ABB81DB602B600142DAF = {
 			isa = PBXGroup;
 			children = (
+				04E6DA6D1DB8D723006E843E /* View */,
+				048B91BB1DB73550006AB58F /* Controller */,
+				048B91B31DB64604006AB58F /* bookrepository.bundle */,
+				048B91AA1DB60E5A006AB58F /* Model */,
 				0431ABC31DB602B600142DAF /* MyReader */,
 				0431ABC21DB602B600142DAF /* Products */,
 			);
@@ -60,8 +92,6 @@
 			children = (
 				0431ABC71DB602B600142DAF /* AppDelegate.h */,
 				0431ABC81DB602B600142DAF /* AppDelegate.m */,
-				0431ABCA1DB602B600142DAF /* ViewController.h */,
-				0431ABCB1DB602B600142DAF /* ViewController.m */,
 				0431ABCD1DB602B600142DAF /* Main.storyboard */,
 				0431ABD01DB602B600142DAF /* Assets.xcassets */,
 				0431ABD21DB602B600142DAF /* LaunchScreen.storyboard */,
@@ -74,9 +104,49 @@
 		0431ABC41DB602B600142DAF /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				048B91A81DB60E28006AB58F /* 天龙八部utf8.txt */,
 				0431ABC51DB602B600142DAF /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		048B91AA1DB60E5A006AB58F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				048B91AB1DB61222006AB58F /* BookRepository.h */,
+				048B91AC1DB61222006AB58F /* BookRepository.m */,
+				048B91B51DB733D2006AB58F /* Book.h */,
+				048B91B61DB733D2006AB58F /* Book.m */,
+				048B91B81DB7342D006AB58F /* ReadingSession.h */,
+				048B91B91DB7342D006AB58F /* ReadingSession.m */,
+				04E6DA721DBA1D5A006E843E /* Config.swift */,
+				04E6DA711DBA1D59006E843E /* MyReader-Bridging-Header.h */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		048B91BB1DB73550006AB58F /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0431ABCA1DB602B600142DAF /* ViewController.h */,
+				0431ABCB1DB602B600142DAF /* ViewController.m */,
+				048B91BC1DB7356C006AB58F /* ReadingViewController.h */,
+				048B91BD1DB7356C006AB58F /* ReadingViewController.m */,
+				04E6DA741DBA4724006E843E /* BookPageViewController.h */,
+				04E6DA751DBA4724006E843E /* BookPageViewController.m */,
+				04E6DA771DBA49C6006E843E /* BookPages.h */,
+				04E6DA781DBA49C6006E843E /* BookPages.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		04E6DA6D1DB8D723006E843E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				04E6DA6E1DB8D762006E843E /* BookPageView.h */,
+				04E6DA6F1DB8D762006E843E /* BookPageView.m */,
+			);
+			name = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -111,6 +181,7 @@
 					0431ABC01DB602B600142DAF = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = 6KKRZB4E7A;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -140,6 +211,8 @@
 			files = (
 				0431ABD41DB602B600142DAF /* LaunchScreen.storyboard in Resources */,
 				0431ABD11DB602B600142DAF /* Assets.xcassets in Resources */,
+				048B91A91DB60E28006AB58F /* 天龙八部utf8.txt in Resources */,
+				048B91B41DB64604006AB58F /* bookrepository.bundle in Resources */,
 				0431ABCF1DB602B600142DAF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,8 +224,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				048B91B71DB733D2006AB58F /* Book.m in Sources */,
+				04E6DA791DBA49C6006E843E /* BookPages.m in Sources */,
 				0431ABCC1DB602B600142DAF /* ViewController.m in Sources */,
+				04E6DA731DBA1D5A006E843E /* Config.swift in Sources */,
 				0431ABC91DB602B600142DAF /* AppDelegate.m in Sources */,
+				048B91BA1DB7342D006AB58F /* ReadingSession.m in Sources */,
+				04E6DA701DB8D762006E843E /* BookPageView.m in Sources */,
+				048B91BE1DB7356C006AB58F /* ReadingViewController.m in Sources */,
+				048B91AD1DB61222006AB58F /* BookRepository.m in Sources */,
+				04E6DA761DBA4724006E843E /* BookPageViewController.m in Sources */,
 				0431ABC61DB602B600142DAF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -271,11 +352,15 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 6KKRZB4E7A;
 				INFOPLIST_FILE = MyReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.robert.MyReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyReader-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
@@ -283,11 +368,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = 6KKRZB4E7A;
 				INFOPLIST_FILE = MyReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.sogou.robert.MyReader;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyReader-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
 		};
@@ -310,6 +398,7 @@
 				0431ABDA1DB602B600142DAF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

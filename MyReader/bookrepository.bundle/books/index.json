@@ -1,0 +1,10 @@
+{"books":
+[
+{"name":"天龙八部", "file_name":"天龙八部utf8", "file_type":"txt",
+"contents": [{"序言":0},{"第一章 开始啦":300},{"第二章 继续啊":520}]
+ },
+{"name":"笑傲江湖", "file_name":"笑傲江湖", "file_type":"txt",
+"contents": [{"前言":0},{"chap1 开始啦":340},{"chap2 继续啊":620}]
+}
+]
+}
